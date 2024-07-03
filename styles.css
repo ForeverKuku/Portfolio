@@ -1,0 +1,350 @@
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.25rem;
+    background-color: #1a202c;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-content {
+    display: flex;
+    align-items: center;
+  }
+
+  
+  .brand-logo {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-right: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #ed8936;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  }
+  
+  .brand-name {
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    margin-left: 1.25rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 10px 15px;
+  }
+  
+  .menu-item:hover {
+    color: #fbbf24;
+    border-radius: 10px;
+  }
+
+  .menu li:last-child {
+    margin-right: 20px; 
+  }
+  
+  .menu-hidden {
+    display: none;
+  }
+  
+  .navbar-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+  /* Welcome Animation */
+  .welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .welcome-content {
+    text-align: center;
+  }
+  
+  .download-cv {
+    background-color: #48bb78;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .download-cv:hover {
+    background-color: #38a169;
+  }
+
+  
+  /* Intro Section */
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .intro-image {
+    width: 280px; 
+    height: auto; 
+    border-radius: 10%; 
+    margin-bottom: 10px; 
+  }
+  
+  .intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  /* Services */
+  .services-section {
+    background-color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .services-section h1 {
+    color: #ed8936;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  
+  .services-section p {
+    max-width: 60%;
+    margin: auto;
+    margin-bottom: 2rem;
+    color: #718096;
+  }
+  
+  .services-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service-card {
+    flex: 1 1 20rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin: 1rem;
+    text-align: left;
+  }
+  
+  .service-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .service-card h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #4a5568;
+  }
+  
+  .service-card p {
+    color: #718096;
+    margin-bottom: 1rem;
+  }
+  
+  .service-card a {
+    color: #48bb78;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.3s;
+  }
+  
+  .service-card a:hover {
+    color: #38a169;
+  }
+  
+
+
+  /* Experience */
+  .experience-section {
+    text-align: center;
+    padding: 4rem 0;
+  }
+  
+  .experience-section h1 {
+    color: #ed8936;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  
+  .experience-section h2 {
+    color: #718096;
+    font-weight: 500;
+    margin: 1rem 0;
+  }
+  
+  .experience-section .w-full {
+    background-color: #cbd5e0;
+    border-radius: 0.75rem;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .experience-section .w-full .bg-orange-600 {
+    background-color: #ed8936;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+
+
+  /* Projects */
+  .projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 4rem 0;
+  }
+  
+  .project-card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px; 
+  width: calc(50% - 20px); 
+  max-width: 300px; 
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .project-card p {
+    color: #718096;
+    margin-bottom: 1rem;
+  }
+  
+  .project-card a {
+    color: #48bb78;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.3s;
+  }
+  
+  .project-card a:hover {
+    color: #38a169;
+  }
+
+
+  
+  /* Footer */
+  .footer-section {
+    background-color: #1a202c;
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 60rem;
+    margin: auto;
+  }
+  
+  .footer-section p {
+    color: #718096;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .contact-links a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+  }
+  
+  .contact-links a:hover {
+    color: #48bb78;
+  }
+  
+  
+
+  /* Responsive Design */
+@media (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    .menu {
+      flex-direction: column;
+      position: absolute;
+      top: -400px;
+      left: 0;
+      right: 0;
+      background-color: #1a202c;
+      transition: top 0.3s, opacity 0.3s;
+    }
+  
+    .menu-hidden {
+      top: -400px;
+      opacity: 0;
+    }
+  
+    .menu-item {
+      margin: 1rem 0;
+      text-align: center;
+    }
+  }

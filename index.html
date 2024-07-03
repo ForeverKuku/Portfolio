@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body class="m-4 p-2 box-border">
+  <header>
+    <nav class="navbar" id="navbar">
+        <div class="navbar-content">
+          <p class="brand-logo">P</p>
+          <span class="brand-name">PixelCraft Studio</span>
+          <span class="menu-icon">
+            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+          </span>
+        </div>
+        <ul class="menu" id="menu">
+          <li><a href="#home" class="menu-item">Home</a></li>
+          <li><a href="#about" class="menu-item">About Me</a></li>
+          <li><a href="#services" class="menu-item">UI Designs</a></li>
+          <li><a href="#works" class="menu-item">Projects</a></li>
+          <li><a href="#footer" class="menu-item">Contact Me</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <!-- Welcome Animation -->
+  <div id="home" class="welcome-section">
+    <div class="welcome-content">
+      <h1>Welcome To My Portfolio!</h1>
+      <p>Mobile Developer & UI Designer</p>
+      <p>I specialize in mobile application development and creating beautiful user interfaces.</p>
+      <button class="download-cv"><a href="https://docs.google.com/document/d/1z16WCZ1YjgFGZpSNFgVBBbP9vyHV6_dbSxCFHw6O64o/edit?usp=sharing" download>Download CV</a></button>
+    </div>
+  </div>
+
+  <!-- Intro Section -->
+  <div id="about" class="intro-section">
+    <div class="card">
+      <div class="intro-content">
+        <img src="faith.jpg" alt="Faith Swen" class="intro-image">
+        <p>I am Faith Makulah Swen</p>
+        <p>I am passionate about designing and developing intuitive user interfaces. I have hands-on experience of over 6 months in React Native and 2 years in Flutter, engaging in diverse design domains.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Services -->
+  <div id="services" class="services-section">
+    <h1>UI Designs</h1>
+    <p>I design stunning user interfaces that enhance the user experience using Figma. My expertise lies in creating intuitive and visually appealing designs. Here are some of the user interfaces I have designed:</p>
+    <div class="services-cards">
+      <div class="service-card">
+        <img src="mindMate.JPG" alt="MindMate Design">
+        <h1>UX / UI Design</h1>
+        <p>Design of MindMate mobile app.</p>
+        <a href="https://www.figma.com/design/QJDEM3m2SkrhzyNyCQnQKr/GroupProject%3ACityFinderApp?node-id=2-8&t=lT0c4YOkw3Sxdshq-0">Read More</a>
+      </div>
+      <div class="service-card">
+        <img src="Dementis.JPG" alt="Dementis Design">
+        <h1>UX / UI Design</h1>
+        <p>Design of Dementia Care App Rwanda mobile app.</p>
+        <a href="https://www.figma.com/design/yAnYLlqr2IVpWyAaTLm5C5/Dementia-Care-App?node-id=1-1656&t=lT0c4YOkw3Sxdshq-0">Read More</a>
+      </div>
+      <div class="service-card">
+        <img src="CityFinder.JPG" alt="City Finder Design">
+        <h1>UX / UI Design</h1>
+        <p>Design of CityFinder mobile app.</p>
+        <a href="https://www.figma.com/design/QJDEM3m2SkrhzyNyCQnQKr/GroupProject%3ACityFinderApp?node-id=2-8&t=lT0c4YOkw3Sxdshq-0">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Experience -->
+  <div id="works" class="experience-section">
+    <h1>Explore Projects</h1>
+    <p>I have developed mobile applications using React Native and Flutter. Here are some of my recent projects:</p>
+    <div class="projects">
+      <div class="project-card">
+        <img src="dementia1.JPG" alt="Dementia Care App">
+        <p>Project 1: React Native Dementia Care App Rwanda</p>
+        <a href="https://github.com/ForeverKuku/Dementia_Project" target="_blank"><i class="fas fa-external-link-alt"></i> View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="finalmovie.png" alt="Muvi Movie App">
+        <p>Project 2: React Native Muvi Movie App</p>
+        <a href="https://github.com/ForeverKuku/MuviApp" target="_blank"><i class="fas fa-external-link-alt"></i> View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="city.jpg" alt="City Finder App">
+        <p>Project 3: React Native City Finder App</p>
+        <a href="https://github.com/MutesiUwaseVanessa/CityFinder" target="_blank"><i class="fas fa-external-link-alt"></i> View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="app2.png" alt="Bus Tracking System">
+        <p>Project 4: Flutter Remote Bus Tracking System for Passengers in Kigali</p>
+        <a href="https://github.com/ForeverKuku/transit_tracker_new.git" target="_blank"><i class="fas fa-external-link-alt"></i> View on GitHub</a>
+      </div>
+    </div>
+  </div>
+
+ 
+  <footer id="footer"  class="footer-section">
+    <div class="footer-content">
+      <p>Let's get in touch and talk about your next project.</p>
+      <ul class="contact-links">
+        <li><a href="https://github.com/ForeverKuku" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/faith-makulah-swen-239411217" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+        <li><a href="tel:+250785603898"><i class="fas fa-phone"></i> +250785603898</a></li>
+        <li><a href="mailto:swenfaithm@gmail.com"><i class="fas fa-envelope"></i> swenfaithm@gmail.com</a></li>
+      </ul>
+      <p>&copy; 2024 Faith Makulah Swen.</p>
+    </div>
+  </footer>
+
+  <script>
+   function Menu(icon) {
+  let menu = document.getElementById('menu');
+  let navbar = document.getElementById('navbar');
+  if (menu.classList.contains('menu-hidden')) {
+    menu.classList.remove('menu-hidden');
+    menu.style.top = '70px';
+    menu.style.opacity = '1';
+    navbar.classList.add('navbar-shadow');
+    icon.name = 'close';
+  } else {
+    menu.classList.add('menu-hidden');
+    menu.style.top = '-400px';
+    menu.style.opacity = '0';
+    navbar.classList.remove('navbar-shadow');
+    icon.name = 'menu';
+  }
+}
+
+  </script>
+</body>
+</html>
